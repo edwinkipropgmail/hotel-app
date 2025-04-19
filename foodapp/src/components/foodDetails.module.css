@@ -1,0 +1,50 @@
+.recipeCard {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    background-color: #fff;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: rgb(32, 80, 13);
+  }
+  .resipeName {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .recipeImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .recipeDetails {
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    color: rgb(26, 48, 18);
+    display: flex;
+      justify-content: space-between;
+  
+  }
+  .instructions {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: rgb(21, 122, 12);
+    border-radius: 6px;
+    padding: 0px;
+    background-color: rgb(250, 245, 245);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  }
+  .instructions ol {
+      padding-left: 20px;
+      margin: 0;
+  }
+  .instructions li {
+    margin-bottom: 10px;
+    color: rgb(32, 80, 13);
+  }
